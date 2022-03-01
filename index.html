@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo homepage</title>
+    <link rel ="stylesheet" href ="css/style.css"/>
+    <script src="https://kit.fontawesome.com/f9b359f751.js" crossorigin="anonymous"></script>
+</head>
+<body >
+
+  <div class ="display">
+    <div style ="flex: 0.5;">
+    
+      <div class ="audio"><audio style="margin-left:50px;"
+        controls
+        src=""></audio></div>
+     
+    <div id ="time">00:00:00</div>
+    <h1 id="nickname">Hello!</h1>
+    <img src ="css/1.gif" id ="imageselection">
+    
+    <div class ="face">
+      <i class="fa-solid fa-face-angry" id ="angry"></i> <i class="fa-solid fa-face-laugh-beam"></i> <i class="fa-solid fa-face-sad-cry"></i>
+      <i class="fa-solid fa-face-grin-hearts"></i>
+    </div>
+      
+      <div id="quote">
+        <div></div>
+        <span></span>
+      </div>
+    
+    </div>
+    <div style ="flex:0.4; display: flex; flex-direction: column;">
+      <div class ="list">
+       <form id="todo-form" >
+         <div style="font-size: 30px; font-weight: bold;">To-do List✍</div>
+        <input class ="todoinput" type="text" placeholder="Write a To Do and Press Enter" required style=" width:250px; height: 50px; opacity: 0.3;"/>
+      </form>
+      <ul id="todo-list" style="padding: 30px; font-weight: bold;"></ul>
+
+      
+    </div> 
+
+    <div id ="icon">
+
+      <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-twitter"></i>
+    </div>
+
+  </div>
+   
+  
+    
+    
+      
+
+
+    </div>
+    
+    
+   
+   
+
+    
+<script src="js/todo.js"></script>     
+<script src="js/time.js"></script>
+<script src="js/quote.js"></script> 
+<script src ="js/face.js"></script>
+
+</body>
+
+</html>
